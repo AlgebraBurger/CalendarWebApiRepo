@@ -191,6 +191,10 @@
     <Compile Include="Migrations\201511061110479_AddTitle.Designer.cs">
       <DependentUpon>201511061110479_AddTitle.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201511061302216_AddDescriptionLink.cs" />
+    <Compile Include="Migrations\201511061302216_AddDescriptionLink.Designer.cs">
+      <DependentUpon>201511061302216_AddDescriptionLink.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -259,6 +263,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201511061110479_AddTitle.resx">
       <DependentUpon>201511061110479_AddTitle.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201511061302216_AddDescriptionLink.resx">
+      <DependentUpon>201511061302216_AddDescriptionLink.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>

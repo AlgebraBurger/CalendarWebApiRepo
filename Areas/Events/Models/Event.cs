@@ -10,6 +10,8 @@ namespace CalendarWebApi.Areas.Events.Models
     {
         public int id { get; set; }
         public string title { get; set; }
+        public string description { get; set; }
+        public string link { get; set; }
         public DateTime start { get; set; }
     }
 }
